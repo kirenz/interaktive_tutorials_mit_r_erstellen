@@ -171,4 +171,4 @@ learnr::run_tutorial("adventr_03", package = "adventr")
 
 Field, A. (2016). An adventure in statistics: The reality enigma. Sage.
 
-Wickham, H. (2015). R packages: organize, test, document, and share your code. O'Reilly Media, Inc.*
+Wickham, H. (2015). R packages: organize, test, document, and share your code. O'Reilly Media, Inc.
