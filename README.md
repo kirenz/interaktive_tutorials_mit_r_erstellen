@@ -93,6 +93,8 @@ Dadurch wird ein neuer Ordner (der Name entspricht der Bezeichnung des Pakets - 
 Damit die interaktiven Elemente korrekt ausgeführt werden können, können wir noch definieren, welche anderen Pakete gemeinsam mit unserem Paket geladen werden sollen. Die Pakete einfügen und in der R-Console in der Projektumgebung ausführen.
 
 `devtools::use_package('learnr') 
+
+
 devtools::use_package('shiny')`
 
 ### Ordner anlegen 
@@ -108,7 +110,7 @@ In den Ordner **Tutorials** kann nun der komplette Ordner aus Schritt 1.3 (hier 
 Nachdem alle Schritte ausgeführt wurden, kann das Paket nun auf dem lokalen Rechner installiert werden
 
 `
-devtools::install(‚meinpaket‘)
+devtools::install('meinpaket')
 `
 
 ### Paket starten  
@@ -118,7 +120,7 @@ Nun kann das Tutorial wie folgt aus R, R-Studio oder Jupyter Notebook gestartet 
 
 `
 library(shiny)
-learn::run_tutorial(„lab1“, package = „meinpaket“)
+learn::run_tutorial('lab1', package = 'meinpaket')
 `
 
 
@@ -129,7 +131,9 @@ Auf [GitHub](https://github.com/profandyfield/adventr) können Lernpakete von de
 
 `
 install.packages("remotes") #if you don’t already have it installed
+
 library(remotes)
+
 install_github("profandyfield/adventr")
 `
 
@@ -155,6 +159,7 @@ Die Tutorials könenn wie folgt gestartet werden:
 
 `
 library(adventr)
+
 learnr::run_tutorial("name_of_tutorial", package = "adventr")
 `
 
@@ -162,6 +167,7 @@ D.h. für Tutorial 3:
 
 `
 library(adventr)
+
 learnr::run_tutorial("adventr_03", package = "adventr")
 `
 
