@@ -156,19 +156,17 @@ Hier eine Übersicht der Lernpakete:
 
 Die Tutorials könenn wie folgt gestartet werden:
 
-`
-library(adventr)
+`library(adventr)`
 
-learnr::run_tutorial("name_of_tutorial", package = "adventr")
-`
+`learnr::run_tutorial("name_of_tutorial", package = "adventr")`
+
 
 D.h. für Tutorial 3:
 
-`
-library(adventr)
 
-learnr::run_tutorial("adventr_03", package = "adventr")
-`
+`library(adventr)`
+
+`learnr::run_tutorial("adventr_03", package = "adventr")`
 
 
 
