@@ -97,6 +97,7 @@ Damit die interaktiven Elemente korrekt ausgeführt werden können, können wir 
 devtools::use_package('learnr') 
 
 devtools::use_package('shiny')
+
 `
 
 ### Ordner anlegen 
