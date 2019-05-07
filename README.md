@@ -92,10 +92,12 @@ Dadurch wird ein neuer Ordner (der Name entspricht der Bezeichnung des Pakets - 
 
 Damit die interaktiven Elemente korrekt ausgeführt werden können, können wir noch definieren, welche anderen Pakete gemeinsam mit unserem Paket geladen werden sollen. Die Pakete einfügen und in der R-Console in der Projektumgebung ausführen.
 
-`devtools::use_package('learnr') 
+`
+devtools::use_package('learnr') 
 
 
-devtools::use_package('shiny')`
+devtools::use_package('shiny')
+`
 
 ### Ordner anlegen 
 
